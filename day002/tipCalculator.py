@@ -4,4 +4,4 @@ people = float(input("How many people in the party? "))
 
 total = bill * 1.2
 split = float(total / people)
-print("You owe " , split)
+print("You owe " , round(split, 2))
